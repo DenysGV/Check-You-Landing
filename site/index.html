@@ -17,7 +17,7 @@
    <meta http-equiv="x-dns-prefetch-control" content="on">
    <link rel="dns-prefetch" href="https://ws.tildacdn.com">
    <link rel="dns-prefetch" href="https://static.tildacdn.info">
-   <link rel="shortcut icon" href="images/tildafavicon.ico" type="image/x-icon"> <!-- Assets -->
+   <link rel="shortcut icon" href="images/icon.svg" type="image/x-icon"> <!-- Assets -->
    <script src="js/tilda-fallback-1.0.min.js" async="" charset="utf-8"></script>
    <link rel="stylesheet" href="css/tilda-grid-3.0.min.css" type="text/css" media="all" onerror="this.loaderr='y';">
    <link rel="stylesheet" href="css/tilda-blocks-page72874985.min.css" type="text/css" media="all"
@@ -433,6 +433,10 @@
                            data-description="Инструкции Lego WeDo 2">
                            Купить инструкции
                         </div>
+                        <a href="files/demo_WeDo2.pdf" download class="t-card__btn t-btn t-btn_sm"
+                           style="color:#0a8fc4;background-color:#ffffff;border: 1px solid #0a8fc4;border-radius:100px; -moz-border-radius:100px; -webkit-border-radius:100px; margin-top: 10px;">
+                           Получить демо
+                        </a>
                      </div>
                   </div>
                </li>
@@ -479,6 +483,10 @@
                            data-amount="300.00" data-description="Инструкции для NXT">
                            Купить инструкции
                         </div>
+                        <a href="files/demo_NXT.pdf" download class="t-card__btn t-btn t-btn_sm"
+                           style="color:#0a8fc4;background-color:#ffffff;border: 1px solid #0a8fc4;border-radius:100px; -moz-border-radius:100px; -webkit-border-radius:100px; margin-top: 10px;">
+                           Получить демо
+                        </a>
                      </div>
                   </div>
                </li>
@@ -518,6 +526,10 @@
                            data-description="Инструкции Lego SPIKE">
                            Купить инструкции
                         </div>
+                        <a href="files/demo_SPIKE.pdf" download class="t-card__btn t-btn t-btn_sm"
+                           style="color:#0a8fc4;background-color:#ffffff;border: 1px solid #0a8fc4;border-radius:100px; -moz-border-radius:100px; -webkit-border-radius:100px; margin-top: 10px;">
+                           Получить демо
+                        </a>
                      </div>
                   </div>
                </li>
@@ -565,6 +577,10 @@
                            data-description="Инструкции Lego Mindstorms EV3 ">
                            Купить инструкции
                         </div>
+                        <a href="files/demo_EV3.pdf" download class="t-card__btn t-btn t-btn_sm"
+                           style="color:#0a8fc4;background-color:#ffffff;border: 1px solid #0a8fc4;border-radius:100px; -moz-border-radius:100px; -webkit-border-radius:100px; margin-top: 10px;">
+                           Получить демо
+                        </a>
                      </div>
                   </div>
                </li>
@@ -1457,6 +1473,51 @@
                   </div>
                </div>
             </div>
+         </div>
+      </div>
+      <style>
+         .payment-methods {
+            margin-top: 50px;
+            /* Отступ сверху для блока */
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-top: 1px solid #eee;
+         }
+
+         .payment-methods h2 {
+            font-size: 1.5em;
+            color: #555;
+            margin-bottom: 25px;
+         }
+
+         .payment-methods-icons {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            /* Расстояние между иконками */
+            flex-wrap: wrap;
+            /* Перенос на новую строку на маленьких экранах */
+         }
+
+         .payment-method-icon svg {
+            width: 80px;
+            /* Размер иконки */
+            height: 50px;
+            /* Высота для соответствия */
+            fill: #666;
+            /* Цвет иконок */
+            transition: fill 0.3s ease;
+         }
+
+         .payment-method-icon svg:hover {
+            fill: #000;
+            /* Цвет при наведении */
+         }
+      </style>
+      <div class="payment-methods">
+         <h2>Мы принимаем к оплате:</h2>
+         <div class="payment-methods-icons">
+            <img src="./images/pay.png" alt="">
          </div>
       </div>
       <div id="rec1184148883" class="r t-rec t-rec_pt_60 t-rec_pb_75"
